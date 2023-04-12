@@ -6,3 +6,15 @@ body {
     width: 10px;
     height: 10px;
 }
+
+@media (max-width: 768px) {
+    .navbar {
+      padding: 5px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .navbar {
+      padding: 0;
+    }
+  }
